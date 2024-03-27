@@ -1,0 +1,12 @@
+{
+    "development": {
+      "username": "root",
+      "password": "citylink",
+      "database": "VOOSH",
+      "host": "localhost",
+      "dialect": "mysql",
+      "port": 3306
+    },
+    "JWT_SECRET" : "I DON'T KNOW",
+    "SERVER_PORT" : 4000
+  }
