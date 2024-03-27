@@ -9,8 +9,7 @@ const config = require("../config/config.json");
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("../../serviceAccountKey.json");
-
+var serviceAccount = require("../../credential/serviceAccountKey.json")
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
